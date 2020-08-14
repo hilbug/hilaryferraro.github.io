@@ -3,6 +3,11 @@
   font-family: 'M PLUS 1p', sans-serif;
 }
 
+/* Navbar */
+.nav-bar {
+  background-color: rgb(188, 143, 143)!important;
+}
+
 /* Jumbotron CSS */
 .jumbotron {
   padding-top: 3rem;
@@ -29,7 +34,12 @@
   max-width: 40rem;
 } */
 
-/* Card CSS */
+/* Portfolio */
+#portfolio {
+  background-color: seashell;
+}
+
+/* Cards */
 .card-title {
   text-align: center;
 }
