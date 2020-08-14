@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="sr">
 
 <head>
     <meta charset="utf-8">
@@ -16,34 +16,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
+    <!-- Custom for this template -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
     <link href="./assets/album.css" rel="stylesheet">
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
     <header>
-        <div class="collapse bg-dark" id="navbarHeader">
+        <div class="collapse nav-bar" id="navbarHeader">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
                         <h4 class="text-white">About</h4>
-                        <p class="text-muted">After 13 years on the operations side of healthcare technology, Hilary is
+                        <p class="text-white">After 13 years on the operations side of healthcare technology, Hilary is
                             currently exploring a career change to full stack developer. She is on track to complete the
                             UNH Coding Bootcamp in November 2020. When not studying or rubberducking, you can find her
                             spending time with family, delving into a good book, or keeping up with the latest Royal
@@ -61,25 +49,15 @@
                 </div>
             </div>
         </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="navbar navbar-dark bg-dark nav-bar shadow-sm">
             <div class="container d-flex justify-content-between">
-                <a href="#portfolio" class="navbar-brand d-flex align-items-center">
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
-                        viewBox="0 0 24 24" focusable="false">
-                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-                        <circle cx="12" cy="13" r="4" /></svg> -->
+                <a href="#portfolio" class="navbar-brand">
                     <strong>Portfolio</strong>
                 </a>
-                <a href="#resume" class="navbar-brand d-flex">
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
-                        viewBox="0 0 24 24" focusable="false">
-                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-                        <circle cx="12" cy="13" r="4" /></svg> -->
+                <a href="#resume" class="navbar-brand">
                     <strong>Resume</strong>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                <button class="navbar-toggler btn btn-outline-dark border" type="button" data-toggle="collapse" data-target="#navbarHeader"
                     aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -95,28 +73,22 @@
                     <!-- Jumbotron - Name & Intro -->
                     <div class="col-md-5 mx-auto d-flex align-items-center justify-content-center">
                         <div class="flex-column">
-                            <h1>Meet Hilary.</h1>
-                            <p class="lead text-muted">An aspiring full stack developer after 10+ years on the operations side of healthcare technology. Currently enrolled in UNH's Coding Bootcamp. Acquiring proficiency in HTML, CSS, Javascript, jQuery, Node.js, MySQL, APIs/AJAX, Express, React, Perl. Loves her Boston Terrier, reading, royal-watching, and travel shows.</p>
-                                <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                            <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+                            <h1 class="headline load-hidden">Meet Hilary.</h1>
+                            <p class="lead load-hidden text-muted">An aspiring full stack developer after 10+ years on the operations side of healthcare technology. Currently enrolled in UNH's Coding Bootcamp. Acquiring proficiency in HTML, CSS, Javascript, jQuery, Node.js, MySQL, APIs/AJAX, Express, React, Perl. Loves her Boston Terrier, reading, royal-watching, and travel shows.</p>
                             </p>
                         </div>
                     </div>
                     <!-- Jumbotron - Picture -->
                     <div class="col-md-5 mx-auto">
-                        <img src="./assets/images/hilary_portfolio_small.jpg" alt="picture of hilary smiling at camera">
-                        <p>
-                            <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                            <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
-                        </p>
+                        <img class = "hilpic load-hidden" src="./assets/images/hilary_portfolio_small.jpg" alt="picture of hilary smiling at camera">
                     </div>
                 </div>
             </div>
         </section>
 
-        <div id="portfolio" class="album py-5 bg-light">
+        <div id="portfolio" class="album py-5">
             <div class="container">
-                <h2>Portfolio</h2>
+                <h2 class="">Portfolio</h2>
                 <div class="row">
                     <!-- Password Generator -->
                     <div class="col-md-4">
@@ -287,5 +259,5 @@
     <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/script.js"></script>
-
+</body>
 </html>
