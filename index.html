@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="sr">
 
 <head>
     <meta charset="utf-8">
@@ -19,6 +19,9 @@
     <!-- Custom for this template -->
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
     <link href="./assets/album.css" rel="stylesheet">
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -70,20 +73,14 @@
                     <!-- Jumbotron - Name & Intro -->
                     <div class="col-md-5 mx-auto d-flex align-items-center justify-content-center">
                         <div class="flex-column">
-                            <h1>Meet Hilary.</h1>
-                            <p class="lead text-muted">An aspiring full stack developer after 10+ years on the operations side of healthcare technology. Currently enrolled in UNH's Coding Bootcamp. Acquiring proficiency in HTML, CSS, Javascript, jQuery, Node.js, MySQL, APIs/AJAX, Express, React, Perl. Loves her Boston Terrier, reading, royal-watching, and travel shows.</p>
-                                <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                            <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+                            <h1 class="headline load-hidden">Meet Hilary.</h1>
+                            <p class="lead load-hidden text-muted">An aspiring full stack developer after 10+ years on the operations side of healthcare technology. Currently enrolled in UNH's Coding Bootcamp. Acquiring proficiency in HTML, CSS, Javascript, jQuery, Node.js, MySQL, APIs/AJAX, Express, React, Perl. Loves her Boston Terrier, reading, royal-watching, and travel shows.</p>
                             </p>
                         </div>
                     </div>
                     <!-- Jumbotron - Picture -->
                     <div class="col-md-5 mx-auto">
-                        <img src="./assets/images/hilary_portfolio_small.jpg" alt="picture of hilary smiling at camera">
-                        <p>
-                            <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                            <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
-                        </p>
+                        <img class = "hilpic load-hidden" src="./assets/images/hilary_portfolio_small.jpg" alt="picture of hilary smiling at camera">
                     </div>
                 </div>
             </div>
@@ -91,7 +88,7 @@
 
         <div id="portfolio" class="album py-5">
             <div class="container">
-                <h2>Portfolio</h2>
+                <h2 class="">Portfolio</h2>
                 <div class="row">
                     <!-- Password Generator -->
                     <div class="col-md-4">

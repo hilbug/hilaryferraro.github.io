@@ -3,6 +3,11 @@
   font-family: 'M PLUS 1p', sans-serif;
 }
 
+/* Scroll Reveal CSS */
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
 /* Navbar */
 .nav-bar {
   background-color: rgb(188, 143, 143)!important;
