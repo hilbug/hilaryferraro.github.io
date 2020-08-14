@@ -1,3 +1,8 @@
+/* Google Font */
+* {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
 /* Jumbotron CSS */
 .jumbotron {
   padding-top: 3rem;
