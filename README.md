@@ -9,11 +9,12 @@ Includes the following:
 - Portfolio
 - Resume
 
-Technologies used: HTML, CSS, Scrollreveal.js, mailgo.dev
+Technologies used: HTML, CSS, Scrollreveal.js, Bounce.js, mailgo.dev, 
 
 ## Honorable Mentions
 - Bootstrap "Album" template: https://getbootstrap.com/docs/4.5/examples/album/
 - Scrollreveal.js: https://scrollrevealjs.org/
+- Bounce.js: http://bouncejs.com/
 - For understanding interval: https://codepen.io/jlmakes/pen/YOrjOd
 - Traversy Media: https://www.youtube.com/watch?v=ePgnR4gHIi4
 - 9elements.com: https://9elements.com/blog/pure-css-diagonal-layouts/
