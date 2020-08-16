@@ -20,3 +20,5 @@ Technologies used: HTML, CSS, Scrollreveal.js, Bounce.js, mailgo.dev,
 - 9elements.com: https://9elements.com/blog/pure-css-diagonal-layouts/
 - Mailgo: https://mailgo.dev/
 - Mailgo - Matteo Codepen: https://codepen.io/manzinello/pen/RmeQEr
+- Footer shape from https://getwaves.io/
+- Favicon: <a href="https://icons8.com/icon/Mo9hpSGX5-Xi/heart">Heart icon by Icons8</a>
