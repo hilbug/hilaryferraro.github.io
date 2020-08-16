@@ -1,12 +1,5 @@
 // Scrollreveal.js
 
-// Navbar
-ScrollReveal().reveal('.nav-bar', {
-    duration: 1200,
-    origin: 'top',
-    reset: true
-});
-
 //Jumbotron
 // Meet Hilary.
 ScrollReveal().reveal('.headline', { 
@@ -17,7 +10,7 @@ ScrollReveal().reveal('.headline', {
 });
 
 // Bio
-ScrollReveal().reveal('.lead', { 
+ScrollReveal().reveal('.lead-bio', { 
     delay: 1750,
     origin: 'left',
     distance: '200px',
@@ -34,73 +27,48 @@ ScrollReveal().reveal('.hilpic', {
 
 // Portfolio Section
 ScrollReveal().reveal('.album1', {
-    delay: 3000,
-    opacity: 0.0
+    delay: 1750,
+    distance: '500px',
+    opacity: 0.0,
+    easing: 'ease-in'
 });
 
-ScrollReveal().reveal('.album-left-port', {
-    duration: 1200,
-    distance: '200px',
-    origin: 'left',
-    delay: 3000
-});
-
-// Resume Section
+//Resume Section
 ScrollReveal().reveal('.album2', {
-    opacity: 0.0
-});
-
-ScrollReveal().reveal('.album-left-resume', {
-    duration: 1200,
-    distance: '200px',
-    origin: 'left'
+    delay: 300,
+    duration: 750,
+    distance: '500px',
+    opacity: 0.0,
+    easing: 'ease-in'
 });
 
 // Cards
 // https://codepen.io/jlmakes/pen/YOrjOd
 // https://www.youtube.com/watch?v=ePgnR4gHIi4
 
-ScrollReveal().reveal('.card1', {
-    opacity: 0.0,
-    delay: 3500
-});
-
-ScrollReveal().reveal('.card2', {
-    opacity: 0.0,
-});
-
-ScrollReveal().reveal('.card-img-top', {
+var cardSlide = {
     opacity: 0.0,
     duration: 1500,
     interval: 30,
     reset: true
-});
+};
 
-ScrollReveal().reveal('.card-title', {
-    opacity: 0.0,
-    duration: 1500,
+ScrollReveal().reveal('.card', {
     interval: 30,
-    reset: true
-});
-
-ScrollReveal().reveal('.card-text', {
     opacity: 0.0,
-    duration: 1500,
-    interval: 30,
-    reset: true
+	reset: true
 });
 
-ScrollReveal().reveal('.btn-grp', {
-    opacity: 0.0,
-    duration: 1500,
-    interval: 30,
-    reset: true
-});
+ScrollReveal().reveal('.card-img-top', cardSlide);
+ScrollReveal().reveal('.card-title', cardSlide);
+ScrollReveal().reveal('.card-text', cardSlide);
+ScrollReveal().reveal('.btn-group', cardSlide);
+ScrollReveal().reveal('.card-header', cardSlide);
 
-ScrollReveal().reveal('.card-header', {
-    opacity: 0.0,
-    duration: 1500,
-    interval: 30,
-    reset: true
+// Add some movement to the buttons
+ScrollReveal().reveal('.btn-group', {
+    rotate: {
+        x: 20,
+        z: 20
+    }
 });
-
