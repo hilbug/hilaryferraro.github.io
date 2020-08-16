@@ -40,8 +40,26 @@ html.sr .load-hidden {
 } */
 
 /* Portfolio */
-#portfolio {
+
+.diagonal-box {
   background-color: seashell;
+  transform: skewY(-3deg);
+} 
+
+.diagonal-box-white {
+  background-color: white;
+  transform: skewY(-3deg);
+}
+
+.content { 	
+	max-width: 75em;
+  margin: 0 auto; 
+  transform: skewY(3deg);
+}
+
+/* Header */
+h2.album-left {
+  margin-bottom: 75px;
 }
 
 /* Cards */
@@ -55,6 +73,7 @@ html.sr .load-hidden {
 /* Footer CSS */
 
 footer {
+  margin-top: 100px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
