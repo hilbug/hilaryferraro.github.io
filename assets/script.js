@@ -28,27 +28,17 @@ ScrollReveal().reveal('.hilpic', {
 // Portfolio Section
 ScrollReveal().reveal('.album1', {
     delay: 1750,
-    opacity: 0.0
-});
-
-ScrollReveal().reveal('.album-left-port', {
-    duration: 1750,
-    distance: '200px',
-    origin: 'left',
-    delay: 1000,
+    distance: '500px',
+    opacity: 0.0,
     easing: 'ease-in'
 });
 
 //Resume Section
 ScrollReveal().reveal('.album2', {
-    opacity: 0.0
-});
-
-ScrollReveal().reveal('.album-left-resume', {
+    delay: 300,
     duration: 750,
-    distance: '200px',
-    origin: 'left',
-    delay: 1000,
+    distance: '500px',
+    opacity: 0.0,
     easing: 'ease-in'
 });
 
