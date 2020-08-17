@@ -22,3 +22,6 @@ Technologies used: HTML, CSS, Scrollreveal.js, Bounce.js, mailgo.dev,
 - Mailgo - Matteo Codepen: https://codepen.io/manzinello/pen/RmeQEr
 - Footer shape from https://getwaves.io/
 - Favicon: <a href="https://icons8.com/icon/Mo9hpSGX5-Xi/heart">Heart icon by Icons8</a>
+
+## Portfolio Demo
+![Meet Hilary  (1)](https://user-images.githubusercontent.com/65197724/90350648-c7d35780-e00b-11ea-8d2e-65c889b4aa5e.gif)
