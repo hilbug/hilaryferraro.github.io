@@ -13,6 +13,10 @@ html.sr .load-hidden {
   background-color: rgb(188, 143, 143)!important;
 }
 
+.fab, .fas {
+  font-size: 3rem;
+}
+
 /* Jumbotron CSS */
 .jumbotron {
   padding-top: 3rem;
@@ -94,7 +98,9 @@ footer p {
 
 .btn:hover, 
 .navbar-brand:hover,
-.animate-link:hover {
+.animate-link:hover,
+.fab:hover,
+.fas:hover {
   -webkit-animation: animation 1000ms linear both;
   animation: animation 1000ms linear both;
 }
