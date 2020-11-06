@@ -1,26 +1,32 @@
 import React from "react";
-import Col from "./Col";
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Button from 'react-bootstrap/Button';
 
 const Project = ({ title, ...props }) => (
-    <Col size="md-4">
-        <div className="card mb-4 shadow-sm">
-            <img src={props.imgUrl} className="card-img-top" width="100%" height="225" alt={props.imgAlt} />
-            <div className="card-body">
-                <h5 className="card-title">{props.title}</h5>
-                <p className="card-text">{props.description}</p>
+    <Col md={4}>
+        <Card className="mb-4 shadow-sm">
+            <Card.Img src={props.imgUrl} variant="top" width="100%" height="225" alt={props.imgAlt} />
+            <Card.Body>
+                <Card.Title className="text-center">{title}</Card.Title>
+                <Card.Text>{props.description}</Card.Text>
                 <div className="d-flex justify-content-center align-items-center">
-                    <div className="btn-group">
-                        <a type="button" className="btn btn-sm btn-outline-secondary" href={props.appLink}>App</a>
-                        <a type="button" className="btn btn-sm btn-outline-secondary" href={props.codeLink}>Code</a>
-                    </div>
+                    <ButtonGroup aria-label="Project Links" >
+                        <Button href={props.appLink} size="sm" variant="outline-secondary">App</Button>
+                        <Button href={props.codeLink} size="sm" variant="outline-secondary">Code</Button>
+                    </ButtonGroup>
                 </div>
-            </div>
-            <div className="card-header">Technologies: {props.tech}</div>
-        </div>
+            </Card.Body>
+            <Card.Footer>Technologies: {props.tech}</Card.Footer>
+        </Card>
     </Col>
 );
 
 export default Project;
 
-// from js:
-// title, description, appLink, codeLink, tech, imgUrl, imgAlt
+/*
+*
+Props: title, description, appLink, codeLink, tech, imgUrl, imgAlt
+*
+*/
