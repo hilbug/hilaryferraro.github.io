@@ -6,11 +6,14 @@ import Row from 'react-bootstrap/Row';
 
 const Portfolio = () => {
   return (
-    <Container>
-      <Row>
-            <Renderer config={portDetails} />
-      </Row>
-    </Container>
+    <section id="portfolio" class="album1 py-5 diagonal-box">
+      <Container>
+      <h2 class="album-left album-left-port">Portfolio</h2>
+        <Row className="content">
+          <Renderer config={portDetails} />
+        </Row>
+      </Container>
+    </section>
   )
 };
 
