@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
     return (
-        <section id="resume" className="album2 py-5 diagonal-box-white">
+        <section id="resume" className="album2 py-5 diagonal-box-white  mt-5">
             <div className="container">
                 <h2 className="album-left album-left-resume">Resume</h2>
                 <div className="row content">
