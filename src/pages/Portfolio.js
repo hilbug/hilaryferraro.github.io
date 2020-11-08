@@ -6,9 +6,9 @@ import Row from 'react-bootstrap/Row';
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" class="album1 py-5 diagonal-box">
+    <section id="portfolio" className="album1 py-5 diagonal-box mt-5">
       <Container>
-      <h2 class="album-left album-left-port">Portfolio</h2>
+      <h2 className="album-left album-left-port">Portfolio</h2>
         <Row className="content">
           <Renderer config={portDetails} />
         </Row>
