@@ -37,7 +37,7 @@ export const portDetails = [
         "appLink": "https://young-reef-00567.herokuapp.com/",
         "codeLink": "https://github.com/hilbug/17-workout-tracker",
         "tech": "HTML, CSS, JavaScript, ChartJS, Express, Mongoose, MongoDB Atlas, Heroku, Nodemon",
-        "imgUrl": "",
+        "imgUrl": "./assets/images/workout_tracker.png",
         "imgAlt": "Workout Tracker Screenshot",
         "component": Project
     },
