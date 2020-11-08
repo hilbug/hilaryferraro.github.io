@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 //import Navbar from 'react-bootstrap/Navbar';
-// will we need this: import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <header>
+        <header className="mb-5">
         <div className="collapse nav-bar" id="navbarHeader">
             <div className="container">
                 <div className="row">
@@ -35,12 +35,9 @@ function Header() {
         </div>
         <div className="navbar navbar-dark nav-bar shadow-sm">
             <div className="container d-flex justify-content-between">
-                <a href="#portfolio" className="navbar-brand">
-                    <strong>Portfolio</strong>
-                </a>
-                <a href="#resume" className="navbar-brand">
-                    <strong>Resume</strong>
-                </a>
+                <Link to="/" className="navbar-brand"><strong>Intro</strong></Link>
+                <Link to="/portfolio" className="navbar-brand"><strong>Portfolio</strong></Link>
+                <Link to="/resume" className="navbar-brand"><strong>Resume</strong></Link>
                 <button className="navbar-toggler btn btn-outline-dark border" type="button" data-toggle="collapse"
                     data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
                     aria-label="Toggle navigation">
