@@ -18,41 +18,10 @@ html.sr .load-hidden {
   font-size: 3rem;
 }
 
-/* Jumbotron CSS */
-.jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
-  background-color: #fff;
-}
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron h1 {
-  font-weight: 300;
-}
-
-.hilpic {
-  /* https://bennettfeely.com/clippy/ */
-  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-}
-
-/* .jumbotron .container {
-  max-width: 40rem;
-} */
-
 /* Portfolio */
 
 .diagonal-box {
-  background-color: seashell;
+  background-color: white;
   transform: skewY(-3deg);
 } 
 
