@@ -18,7 +18,7 @@ const Jumbo = (props) => (
                     </div>
                 </div>
                 {/* <!-- Jumbotron - Picture --> */}
-                <div className="col-md-5 mx-auto">
+                <div className="col-md-5 mx-auto d-flex align-items-center justify-content-center">
                     <img className="hilpic rounded" src="./assets/images/hilary_portfolio_small.jpg"
                         alt="hilary smiling at camera" />
                 </div>
